@@ -1,3 +1,11 @@
 Needed to run this line to get shapely into notebook. Don't understand why.
-[http://stackoverflow.com/questions/33960051/unable-to-import-a-module-from-python-notebook-in-jupyter]
-# penroseipython kernel install --user
+[stack overflow](http://stackoverflow.com/questions/33960051/unable-to-import-a-module-from-python-notebook-in-jupyter)
+
+`ipython kernel install --user`
+
+Trying jupyter extensions
+```
+https://github.com/ipython-contrib/jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+```
+http://localhost:8888/nbextensions
