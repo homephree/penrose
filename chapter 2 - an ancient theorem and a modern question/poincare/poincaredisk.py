@@ -36,4 +36,8 @@ class PoincareDiskModel():
 
     def save(self, filename):
         bokeh.plotting.save(obj=self._plot, filename=filename)
+        
+    @property
+    def plot(self):
+        return self._plot
 
