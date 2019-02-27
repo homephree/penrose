@@ -1,0 +1,6 @@
+
+needs 
+
+- shapely
+- bokeh
+

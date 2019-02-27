@@ -7,7 +7,7 @@ from . hyperbolic import HyperbolicLine, HyperbolicPoint
 class PoincareDiskModel():
     def __init__(self):
         self._plot = bokeh.plotting.figure(plot_width=600, plot_height=600, min_border=50,
-                                           x_range=(-1, 1), y_range=(-1, 1), tools=['zoom_in', 'zoom_out'], logo=None)
+                                           x_range=(-1, 1), y_range=(-1, 1), tools=['zoom_in', 'zoom_out'])
         self._plot.arc(x=0.0, y=0.0, radius=1.0, start_angle=0.0, end_angle=2.0*math.pi)
 
     def drawpoint(self, point, **kwargs):

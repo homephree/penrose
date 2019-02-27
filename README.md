@@ -9,3 +9,10 @@ https://github.com/ipython-contrib/jupyter_contrib_nbextensions
 jupyter contrib nbextension install --user
 ```
 http://localhost:8888/nbextensions
+
+# modules
+
+- jupyter
+- jupyterlab
+- shapely
+- matplotlib
